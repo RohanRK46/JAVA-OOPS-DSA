@@ -1,3 +1,4 @@
+package encapsulatin;
 public class Banking {
     private int pin;
     private String accountHolderName;
