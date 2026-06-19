@@ -4,10 +4,11 @@ public class maxElementInArray{
     public static void main(String[] args){
 
         // this part will take input from the user and push it to the array
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in)){
 
-        System.out.print("Total number of element in Array :");
-        int x = sc.nextInt();
+            
+            System.out.print("Total number of element in Array :");
+            int x = sc.nextInt();
 
         int arr[] = new int[x];
 
@@ -29,5 +30,6 @@ public class maxElementInArray{
             }
         }
         System.out.println("Maximum value in Array is :" + max);
+    }
     }
 }

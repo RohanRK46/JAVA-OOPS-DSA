@@ -3,9 +3,10 @@ import java.util.Scanner;
 
 public class array2DGenerator {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in)){
 
-        // this takes and create no. rows in an array 
+            
+            // this takes and create no. rows in an array 
 
         System.out.print("Number of rows in 2D array : ");
         int rowlength = sc.nextInt();
@@ -27,7 +28,7 @@ public class array2DGenerator {
             }
         }
 
-        // printing the 3D array
+        // printing the 2D array
 
         for (int i = 0 ; i < rowlength ; i++){
             for (int j = 0 ; j < arr[i].length ; j++){
@@ -35,5 +36,6 @@ public class array2DGenerator {
             }
             System.out.println();
         }
+    }
     }
 }

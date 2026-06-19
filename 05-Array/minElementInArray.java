@@ -4,9 +4,9 @@ public class minElementInArray{
     public static void main(String[] args){
 
         // this part will take input from the user and push it to the array
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Total number of element in Array :");
+        try(Scanner sc = new Scanner(System.in)){
+            
+            System.out.print("Total number of element in Array :");
         int x = sc.nextInt();
 
         int arr[] = new int[x];
@@ -29,6 +29,7 @@ public class minElementInArray{
             }
         }
         System.out.println("Minimum value in Array is :" + min);
+    }
     }
 }
 

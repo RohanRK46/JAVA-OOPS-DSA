@@ -3,9 +3,10 @@ import java.util.Scanner;
 
 public class armstrongnumber {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your number to check if its armstrong or not : ");
-        int num = sc.nextInt();
+        try(Scanner sc = new Scanner(System.in)){
+
+            System.out.println("Enter your number to check if its armstrong or not : ");
+            int num = sc.nextInt();
 
         // user  ne inout kiya 1234
         int temp = num;
@@ -31,5 +32,6 @@ public class armstrongnumber {
         else{
             System.out.println("Not a armstrong number");
         }
+    }
     }
 }

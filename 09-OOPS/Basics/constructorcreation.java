@@ -1,7 +1,7 @@
 package basics;
 
 
-public class Student {
+public class constructorcreation {
     public int id ;
     public String name;
     public int age ;
@@ -10,13 +10,13 @@ public class Student {
 
     // default ctor
     
-    public Student(){
+    public constructorcreation(){
         System.out.println("Default ctor is called");
     }
 
     // parameterised ctor
 
-    public Student(int id , String name , int age , String faculty){
+    public constructorcreation(int id , String name , int age , String faculty , int password){
         System.out.println("Parameterised ctor is called");
 
     // we created object in main and gave it the attributes value and those are catched by this studnet ctor
@@ -26,16 +26,18 @@ public class Student {
         this.name = name;
         this.age = age;
         this.faculty = faculty;
+        this.password = password;
     }
 
     // copy ctor 
 
-    public Student(Student src){
+    public constructorcreation(constructorcreation src){
         System.out.println("copy ctor is called");
         this.id = src.id;
         this.name = src.name;
         this.age = src.age;
         this.faculty = src.faculty;
+        this.password = src.password;
     }
 
     public void study3hr(){

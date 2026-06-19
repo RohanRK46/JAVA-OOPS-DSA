@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-
 class Digitprint{
     static void rev(int num){
         String str = String.valueOf(num);
@@ -27,9 +26,10 @@ class NumPrint{
 
 public class printingAllTheDigits {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number to reverse : ");
+        try(Scanner sc = new Scanner(System.in)){
 
+            System.out.print("Enter number to reverse : ");
+            
         // taking input
         int num = sc.nextInt();
 
@@ -38,5 +38,6 @@ public class printingAllTheDigits {
 
         NumPrint.digitsprint(num);
         Digitprint.rev(num2);
+    }
     }
 }

@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class valuePushInArray {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); 
-        System.out.print("How many value you want to input :");
-        int n = sc.nextInt();
-
-        int arr[] = new int[n];
+        try(Scanner sc = new Scanner(System.in)){
+            System.out.print("How many value you want to input :");
+            int n = sc.nextInt();
+            
+            int arr[] = new int[n];
 
         for(int i = 0 ; i < n ; i++){
             System.out.println("Enter " + i +" Value : ");
@@ -17,5 +17,6 @@ public class valuePushInArray {
         for(int i = 0 ; i < n ; i++){
             System.out.println(arr[i]);
         }
+    } 
     }
 }
