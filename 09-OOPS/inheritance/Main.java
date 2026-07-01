@@ -1,7 +1,4 @@
 package inheritance;
-
-import java.util.*;
-
 class Vehicle {
     public int nosWindows;
     public int nosTyres;

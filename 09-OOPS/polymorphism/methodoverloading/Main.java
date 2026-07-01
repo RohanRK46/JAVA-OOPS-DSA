@@ -1,4 +1,4 @@
-package polymorphism.methodoverloading;
+package methodoverloading;
 
 class calc {
     public int addnum(int a, int b) {

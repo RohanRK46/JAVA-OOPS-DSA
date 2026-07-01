@@ -1,4 +1,4 @@
-package polymorphism.methodoverriding;
+package methodoverriding;
 
 // sub class of vehicle 2 
 public class Bike extends Vehicles {
