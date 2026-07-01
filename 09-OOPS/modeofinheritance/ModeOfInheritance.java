@@ -59,7 +59,7 @@ class Car extends vehicles {
     }
 }
 
-public class main{
+public class ModeOfInheritance{
     public static void main(String[] args) {
         Car A = new Car(4 , 5 , 4 , "quadsuspension");
         Bus B = new Bus(6 , 12 , 8 , 2);

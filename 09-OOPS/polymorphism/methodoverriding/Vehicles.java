@@ -1,6 +1,4 @@
-package polymorphism.methodoverriding;
-
-import inheritance.vehicle;
+package methodoverriding;
 
 // base class
 public class Vehicles {

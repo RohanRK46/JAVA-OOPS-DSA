@@ -1,17 +1,10 @@
-package polymorphism.methodoverriding;
-
-import inheritance.vehicle;
-
+package methodoverriding;
 public class Main {
     public static void main(String[] args) {
-        Car c = new Car();
-        startenginall(c);
+        Vehicles c = new Car();
+        c.startEngin();;
 
         Vehicles a = new Bike();
-        a.startEngin();
-    }
-    
-    public static void startenginall(Vehicles a){
         a.startEngin();
     }
 }

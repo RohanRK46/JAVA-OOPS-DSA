@@ -1,4 +1,4 @@
-public class array2Dbasic {
+public class A01_array2Dbasic {
     public static void main(String[] args) {
 
         // Declaration in one line and memory allocation in next line

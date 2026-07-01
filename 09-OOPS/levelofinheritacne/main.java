@@ -27,7 +27,7 @@ class car extends vehicle {
     }
 }
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         
         car A = new car(4, 5, "petrol",true);
