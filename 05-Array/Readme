@@ -1,0 +1,10 @@
+1> basic array questions
+2> beginer level arrray questions
+
+3> arrayComparator
+4> array Manipulation
+5> sorting array --> includes BruteForce , and two pointers
+6> kadane algorithm --> 2 sum , 3 sum , 4 sum with respective O(n^2) , O(n^3) ... based on no of sums
+7> 2D array 
+8> sorting algorithm --> how we can sort an array in ascending or descending order
+9> binary search

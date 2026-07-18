@@ -3,7 +3,7 @@ package sortingarray;
 public class S02_SortZeroesOnesAndTwoesInArray {
     public static void main(String[] args) {
 
-        int arr[] = { 1, 1, 0, 2, 2, 1, 2, 0, 1, 0, 2, 0 };
+        int arr[] = { 1, 1, 0, 2, 2, 1, 2, 0, 1, 0, 2};
 
         int Left = 0;
         int Current = 0;
