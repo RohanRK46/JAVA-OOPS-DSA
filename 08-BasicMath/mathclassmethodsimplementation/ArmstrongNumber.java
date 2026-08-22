@@ -7,9 +7,10 @@ public class ArmstrongNumber {
 
         int temp = num;
         int temp2 = num;
-        int length = 0;
         int sum = 0; 
         
+        int length = 0;
+
         while ( num != 0 ) {
             length = length + 1;
             num = num / 10;
@@ -17,7 +18,7 @@ public class ArmstrongNumber {
 
         while ( temp != 0 ) {
             int LastDigit = temp % 10 ; 
-            sum = sum +(int) Math.pow(LastDigit, length);
+            sum = sum + (int) Math.pow(LastDigit, length);
             temp = temp/10;
         }
 
