@@ -1,4 +1,6 @@
-public class BM01_findingUniqueNoUsingXOR {
+package mathclassmethodsimplementation;
+
+public class FindUniqueNumberUsingXOR {
     public static void main(String[] args) {
         int arr[] = {10 , 20 , 10 , 20 , 43 , 16 , 17 , 16 , 17 };
 
@@ -8,4 +10,5 @@ public class BM01_findingUniqueNoUsingXOR {
         }
         System.out.println("Unique Number is :" + uniqueNo);
     }
+    
 }
